@@ -7,5 +7,8 @@ public class primitivoEndWarpp {
 
         Integer idadeWrapper = 10;
         System.out.println ("wrapper:" + idadeWrapper);
+
+        //Aqui eu converto para a Warpper
+        Integer idadeWrapperWrapper = Integer.valueOf(idade);
     }
 }
