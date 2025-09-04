@@ -29,6 +29,7 @@ public class ControleDeFluxo {
             System.out.println("O aluno está de recuperação.");
         } else {
             System.out.println("O aluno foi reprovado.");
-        }
+        }\
+
     }
 }
