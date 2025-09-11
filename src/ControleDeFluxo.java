@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ControleDeFluxo {
@@ -31,5 +33,11 @@ public class ControleDeFluxo {
             System.out.println("O aluno foi reprovado.");
         }
 
+    }
+
+    public static void  exemploLista(){
+        List<String> lista = new ArrayList<String>();
+        lista.add("joao Pedro");
+        System.out.println(lista);
     }
 }
