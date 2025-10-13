@@ -27,7 +27,7 @@ public class Venda {
         return vendedor;
     }
 
-    public void setVendedor(Vendedor vendedor) {
+    public void setVendedor(vendedor vendedor) {
         this.vendedor = vendedor;
     }
 

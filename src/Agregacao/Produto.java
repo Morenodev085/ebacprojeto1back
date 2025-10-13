@@ -2,8 +2,9 @@ package Agregacao;
 
 public class Produto {
     private String nome;
-
     private long codigo;
+    private int tamanho;
+    private double preco;
 
     public String getNome() {
         return nome;
@@ -29,19 +30,15 @@ public class Produto {
         this.tamanho = tamanho;
     }
 
-    private float preco;
-
-    public float getPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public void setPreco(Double preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 
-    public int tamanho;
-
-    public void vendido(){
+    public void vendido() {
         System.out.println("O Produto foi vendido com sucesso!");
-    };
+    }
 }

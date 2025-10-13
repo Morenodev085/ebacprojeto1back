@@ -5,7 +5,7 @@ public class Programa {
         Produto pTV = criarProduto(1L, 10d, "TV");
         Produto pAr = criarProduto(2L, 13d, "Ar Condicionado");
 
-        Vendedor vendedor = criarVendedor("Rodrigo", 10);
+        vendedor vendedor = criarVendedor("Rodrigo", 10);
         Comprador comprador = criarComprador("Anna", 15d);
 
         // ✅ Criar a venda com lista de produtos
