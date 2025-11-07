@@ -1,3 +1,5 @@
+package projetos1;
+
 public class Cliente {
 
     private int codigo;
