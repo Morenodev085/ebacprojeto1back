@@ -5,13 +5,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        List<CarrosGenericos> listaCarros = new ArrayList<>();
 
-        List<Carrogenerico> listaCarroGenerico = new ArrayList<>();
+        listaCarros.add(new Honda("civic"));
+        listaCarros.add(new Fiat("Argo"));
 
-        listaCarroGenerico.add(new Carrogenerico("Corolla", "Toyota"));
-
-        for (Carrogenerico carro : listaCarroGenerico) {
+        for (CarrosGenericos carro : listaCarros) {
             System.out.println(carro);
         }
     }
+
+
 }
